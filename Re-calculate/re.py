@@ -8,11 +8,11 @@ import numpy as np
 import random
 import linecache
 
-f_xyz = open("re.xyz","r")
+f_xyz = open("re.xyz","r")   ##input file
 
-tot = 4000
-nab = 2
-nmol = int(tot/nab)
+tot = 4000   ##total number of CG beads
+nab = 2   ## bead number of one ACP backbone
+nmol = int(tot/nab) ## total number of ACP backbone
 
 points = []
 for lines in f_xyz.readlines()[2:]:
