@@ -1,1 +1,3 @@
 
+Rg-asphericity.py 用于计算交替共聚物主链的Rg和非球因子asphericity
+输入文件为rg.xyz
